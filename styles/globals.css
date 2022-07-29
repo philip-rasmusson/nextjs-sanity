@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Comfortaa, Helvetica Neue, sans-serif;
+  color: #454545;
 }
 
 a {
@@ -11,6 +11,16 @@ a {
   text-decoration: none;
 }
 
+p,
+ol {
+  line-height: 2rem;
+}
+ol ::marker {
+  margin-block-start: 0;
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
